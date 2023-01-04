@@ -1,0 +1,10 @@
+.bi{
+    position: fixed;
+    z-index: 1000;
+    
+}
+
+.textoPrincipal{
+    z-index: 1000;
+    margin-top: 500px;
+}
