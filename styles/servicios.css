@@ -8,3 +8,11 @@
 main{
     position: sticky;
 }
+
+.tituloContenedor{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.segundo{
+    margin-top: 120px;
+}
