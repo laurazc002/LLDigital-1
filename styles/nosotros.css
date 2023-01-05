@@ -1,8 +1,23 @@
-.noticias{
-    margin-left: 100px;
+.nav{
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+} 
+
+main{
+    position: sticky;
 }
 
-.codigo{
-    height: 300px;
-    width: 500px;
+.fotoNosotros{
+    height: 500px;
+    width: 375px;
 }
+
+.textoNosotros{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
