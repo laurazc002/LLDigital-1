@@ -7,6 +7,46 @@ let ampliarServicio=document.getElementById('ampliarServicio');
 
  let cerrar=document.getElementById('cerrar');
 
+// navegador pantalla amplia
+
+
+let botonServicio=document.getElementById('botonServicio');
+let botonservicio__lista=document.getElementById('botonservicio__lista');
+
+
+
+
+botonServicio.addEventListener('click',()=>{
+        
+    botonservicio__lista.classList.remove('botonservicio__lista');
+    botonservicio__lista.classList.add('botonservicio__lista__activo');    
+});
+
+
+botonservicio__lista.addEventListener('mouseleave',()=>{
+    botonservicio__lista.classList.add('botonservicio__lista');
+    botonservicio__lista.classList.remove('botonservicio__lista__activo'); 
+})
+
+// let imagenBanner=document.getElementById('imagenBanner');
+// imagenBanner.addEventListener('mouseover',()=>{
+//     botonservicio__lista.classList.add('botonservicio__lista');
+//     botonservicio__lista.classList.remove('botonservicio__lista__activo'); 
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+ // davegador pantalla pequeña
 
 
 despliegue.addEventListener('click',()=>{
