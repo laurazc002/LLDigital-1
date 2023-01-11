@@ -15,3 +15,7 @@
     text-decoration: underline;
     text-align: right;
 }
+
+#fotoPortafolio{
+    cursor: pointer;
+}
