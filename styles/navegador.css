@@ -5,6 +5,9 @@
     height: 90px;
     justify-content: space-between;
     background-color: rgba(18, 54, 131, 0.66);
+
+
+    margin-bottom: 100px;
     
     
 }
@@ -35,6 +38,72 @@
     color: rgb(250, 249, 249);
     transition: 1s;
 }
+
+
+
+
+#botonServicio{
+    position: relative !important;
+        border-radius: 15px;
+        width: 20%;
+        border: 1px solid transparent;
+        justify-content: space-between;
+        margin: auto;
+        text-decoration: none;
+        text-align: center;
+        color: rgb(250, 249, 249);
+        transition: 1s;
+        background-color: transparent ;
+    
+    
+}
+
+#botonServicio:hover{
+background-color: rgb(254, 253, 253);
+color: rgb(24, 23, 23);
+}
+
+.botonservicio__lista {
+    width: 17%;
+    position: absolute;
+    background-color: #000;
+    top: 100%;
+    right: 2%;
+    border-radius: 8px;
+    display: none;
+    
+}
+
+.botonservicio__lista__activo {
+    width: 17%;
+    position: absolute;
+    background-color: #000;
+    top: 100%;
+    right: 2%;
+    border-radius: 8px;
+    display: block;
+    
+}
+
+.botonservicio__lista a{
+    width: 80%;
+    margin: 7px;
+    text-align: left;
+    
+}
+
+.botonservicio__lista__activo a{
+    width: 80%;
+    margin: 7px;
+    text-align: left;
+    
+}
+
+.botonservicio__lista a:hover{
+    color: #000 !important;
+}
+
+
 
 
 .navegador__botones a:hover{
@@ -148,7 +217,7 @@ main img{
         margin: 3px 0;
         width: 60%;
         transition: 1s;
-        background-color: rgba(0, 0, 0, 0.601);;
+        background-color: transparent;
         text-align:left;
     }
 

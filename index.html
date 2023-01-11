@@ -21,8 +21,14 @@
             <div class="navegador__botones">
                 <a href="#" type="button">Inicio</a>
                 <a href="./views/Nosotros.html" type="button">Nosotros</a>
-                <a href="#" type="button">Servicios</a>
-                <a href="./views/blog.html" type="button">Blog</a>
+                <button href="#" id="botonServicio"  class="botonServicio" type="button">Servicios</button>
+                <div class="botonservicio__lista" id="botonservicio__lista">
+                  <li><a href="./views/DiseñoPaginas.html" type="button">Diseño de Paginas Web</a></li>
+                  <li><a href="./views/DesarrollosPersonalizados.html" type="button">Desarrollos Personalizados</a></li>
+                  <li><a href="./views/CreacionMYL.html" type="button">Creacion de Marcas y Logotipos</a></li>
+                  <li><a href="./views/HospedajeWeb.html" type="button">Hospedaje Web</a></li>                         
+                </div>
+                <a href="./views/portafolio.html" type="button">portafolio</a>
 
             </div>
 
@@ -35,16 +41,16 @@
                   </div>
 
                   <ul>
-                    <li><a type="button" href="">Inicio</a></li>
-                    <li><a type="button" href="">Nosotros</a></li>
-                    <li><a type="button" href="">Blog</a></li>
-                    <li><button type="button" id="ampliarServicio" href="">Servicios <i class="bi bi-caret-down-square"></i></button>
+                    <li><a type="button" href="#">Inicio</a></li>
+                    <li><a type="button" href="./views/Nosotros.html">Nosotros</a></li>
+                    <li><a type="button" href="./views/portafolio.html">portafolio</a></li>
+                    <li><button type="button" id="ampliarServicio" href="">Servicios<i class="bi bi-caret-down-square"></i></button>
                       <div class="despliegue__opciones-capa2" id="despliegue__opciones-capa2">
                         <ul>
-                          <li><a href="" type="button">Diseño de Paginas Web</a></li>
-                          <li><a href="" type="button">Desarrollos Personalizados</a></li>
-                          <li><a href="" type="button">Creacion de Marcas y Logotipos</a></li>
-                          <li><a href="" type="button">Hospedaje Web</a></li>                         
+                          <li><a href="./views/DiseñoPaginas.html" type="button">Diseño de Paginas Web</a></li>
+                          <li><a href="./views/DesarrollosPersonalizados.html" type="button">Desarrollos Personalizados</a></li>
+                          <li><a href="./views/CreacionMYL.html" type="button">Creacion de Marcas y Logotipos</a></li>
+                          <li><a href="./views/HospedajeWeb.html" type="button">Hospedaje Web</a></li>                         
                         </ul>
                       </div>
                     
@@ -64,7 +70,7 @@
 
     <main>
 
-      <img class="imagenBanner" src="./img/Paginas web.png" alt="" width="100%" height="600px"> 
+      <img class="imagenBanner" src="./img/Paginas web.png" id="imagenBanner" alt="" width="100%" height="600px"> 
       <!-- <h4 class="textoPrincipal">Diseño web personalizado</h4> -->
               
         <h5 class="tituloPortafolio text-center my-5">Portafolio de servicios</h5>
