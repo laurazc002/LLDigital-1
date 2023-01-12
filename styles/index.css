@@ -61,10 +61,26 @@ main{
     z-index: 2000;
 }
 
+
+.contenedor__servicios-tarjetas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .tarjeta{
     overflow: hidden;
 }
 
 
 
-svg{font-weight:bold;max-width:300px}
+ svg {
+    
+    font-size: .6em;
+    width: 30%;
+    text-align: center;
+} 
+
+svg text{
+    font-weight: bold ;
+    font-size: 90%;
+}
