@@ -16,7 +16,7 @@ let botonservicio__lista=document.getElementById('botonservicio__lista');
 
 
 
-botonServicio.addEventListener('click',()=>{
+botonServicio.addEventListener('mouseover',()=>{
         
     botonservicio__lista.classList.remove('botonservicio__lista');
     botonservicio__lista.classList.add('botonservicio__lista__activo');    
