@@ -88,7 +88,7 @@ boton2.addEventListener('click',()=>{
         showConfirmButton:false,
         showCancelButton:false,
         showCloseButton: true,
-        // buttonsStyling:"#000"
+        buttonsStyling:"#000"
         
     
     
