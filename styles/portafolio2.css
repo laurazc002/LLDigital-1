@@ -1,0 +1,14 @@
+.cardPortafolio{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 50px ;
+    
+}
+
+.portafolio{
+    margin-top: 100px;
+}
+
+.card{
+    border: none;
+}
