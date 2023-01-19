@@ -1,6 +1,6 @@
 Swal.fire({
     // background: "rgba(18, 54, 131, 0.66)",
-    html: '<main class="bg-body rounded segundo"> <section> <section class="row "> <section class="col-6 text-center"> <img src="../img/portafolio2 (1).png" alt="" height="200px" width="300px" id="fotoPortafolio1"><section/> <section class="col-4 align-self-center text-center border-start"><p>eeeeejjjjjjje<p/>  <section/> <section/> <main/>',
+    html: '<main class="bg-body rounded segundo"> <section> <section class="row "> <section class="col-6 text-center"><img src="../img/portafolio2 (1).png" alt="" height="200px" width="300px" id="fotoPortafolio1"><section/> <section class="col-4 align-self-center text-center border-start"><p><p/>  <section/> <section/> <main/>',
     // icon:"question",
     // confirmButtonText:"X",
     // width: "900px",
