@@ -36,17 +36,7 @@ botonservicio__lista.addEventListener('mouseleave',()=>{
 
 
 
-
-
-
-
-
-
-
-
-
-
- // davegador pantalla pequeña
+ // navegador pantalla pequeña
 
 
 despliegue.addEventListener('click',()=>{
@@ -82,4 +72,6 @@ despliegue.addEventListener('click',()=>{
         despliegue__opciones_capa1.classList.add('despliegue__opciones-capa1'); 
         despliegue__opciones_capa1.classList.remove('despliegue__opciones-capa1__activo');
             });
+
+//modoNocturno
 
