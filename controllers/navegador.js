@@ -1,3 +1,6 @@
+let Switch=document.querySelector('#switch')
+
+
 let despliegue= document.getElementById('despliegue');
 
 let despliegue__opciones_capa1=document.getElementById('despliegue__opciones-capa1');
@@ -7,6 +10,14 @@ let ampliarServicio=document.getElementById('ampliarServicio');
 
  let cerrar=document.getElementById('cerrar');
 
+
+ // modo nocturno
+ let banderaSwitch=true
+
+ Switch.addEventListener('click',()=>{
+   Switch.classList.toggle('active')
+   document.body.classList.toggle('dark')
+    })
 // navegador pantalla amplia
 
 

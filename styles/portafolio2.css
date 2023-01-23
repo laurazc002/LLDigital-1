@@ -1,9 +1,21 @@
+.nav{
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+} 
+
+main{
+    position: sticky;
+}
+
 .cardPortafolio{
     display:flex;
     justify-content: space-evenly;
     margin: 50px ;
     
 }
+
 
 .portafolio{
     margin-top: 100px;
