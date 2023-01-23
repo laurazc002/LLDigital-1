@@ -1,3 +1,5 @@
+export{}
+
 let fotoPortafolio1=document.getElementById('fotoPortafolio1')
 
 fotoPortafolio1.addEventListener('mouseover',()=>{

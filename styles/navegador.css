@@ -5,11 +5,38 @@
     height: 90px;
     justify-content: space-between;
     background-color: rgba(18, 54, 131, 0.66);
-
+    position: relative;
 
     margin-bottom: 100px;
     
     
+}
+
+#switch{
+    position: absolute;
+    bottom:-100% ;
+    width: 5%;
+    height: 35%;
+    display: flex;
+    border-radius: 20px;  
+    justify-content:space-around;
+    background-color: rgb(19, 15, 83);
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+}
+
+
+#switch i:hover{
+border-radius: 25px;
+color: #fff;
+}
+
+
+.icono{
+    color: #fff;
+
 }
 
 .contenedor__logo{
@@ -140,7 +167,19 @@ main img{
        display: none; 
     }
 
+    #switch{
+        position: absolute;
+        bottom:-100% ;
+        width: 5%;
+        margin: auto;
+        height: 80%;
+        display: block;
+        border-radius: 20px;  
+    }
        
+
+
+
     .despliegue__opciones{
         display: block;
         width: 50%;
@@ -285,5 +324,36 @@ main img{
     .despliegue__opciones-capa2 a{
     width: 100%;
     }
+
+}
+
+@media only screen and (max-width: 550px){
+
+
+    #switch{
+        position: absolute;
+        bottom:-100% ;
+        width: 7%;
+        height: 70%;
+        display: block;
+        border-radius: 20px;  
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 400px){
+
+    #switch{
+        position: absolute;
+        bottom:-100% ;
+        width: 8%;
+        height: 70%;
+        display: block;
+        border-radius: 20px;  
+    }
+
+
 
 }
