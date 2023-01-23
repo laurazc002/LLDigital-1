@@ -1,3 +1,9 @@
+.nav{
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+} 
 .dark{
     background-color: #000;
 }
@@ -17,23 +23,24 @@
 
 
 .switch{
-    position: absolute;
-    bottom:-100% ;
+    position: absolute !important;
+    bottom:-100%;
     width: 5%;
     height: 35%;
     display: flex;
     border-radius: 20px;  
     justify-content:space-around;
-    background-color: rgb(4, 3, 10);
+    background-color:rgb(228, 174, 25); 
     border: none;
     cursor: pointer;
     outline: none;
+    position: relative;
 
 }
 
 
  .active{
-    background: rgb(228, 174, 25);
+    background:rgb(4, 3, 10);;
     color: #000;
     
    
@@ -47,9 +54,17 @@
     /* box-shadow: 0px 0px 1px 1px #fff; 
 } */
 
-
+/* 
 .switch ::after{
     content: "";
+ 
+    /* box-shadow: 0px 0px 1px 1px rgb(24, 23, 23); 
+
+   
+
+} */
+
+.iconoEncima{
     display: block;
     width: 30px;
     height: 29px;
@@ -60,11 +75,22 @@
     right:0%;
     border-radius: 100px;
     transition: .3 ease all;
-    /* box-shadow: 0px 0px 1px 1px rgb(24, 23, 23); */
-
-   
-
 }
+
+.iconoEncima_2{
+    display: block;
+    width: 30px;
+    height: 29px;
+    position: absolute;
+    background-color: #fff;
+    top: 1px;
+    left: 0%;
+    right:unset;
+    border-radius: 100px;
+    transition: .3 ease all;
+}
+
+
 
 
 .icono{

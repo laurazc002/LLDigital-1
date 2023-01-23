@@ -1,5 +1,5 @@
 let Switch=document.querySelector('#switch')
-
+let iconoEncima= document.getElementById('iconoEncima')
 
 let despliegue= document.getElementById('despliegue');
 
@@ -17,6 +17,17 @@ let ampliarServicio=document.getElementById('ampliarServicio');
  Switch.addEventListener('click',()=>{
    Switch.classList.toggle('active')
    document.body.classList.toggle('dark')
+if(banderaSwitch){
+    iconoEncima.classList.add('iconoEncima_2')
+    iconoEncima.classList.remove('iconoEncima')
+    banderaSwitch=false
+}else{
+    iconoEncima.classList.remove('iconoEncima_2')
+   iconoEncima.classList.add('iconoEncima')
+   banderaSwitch=true
+}
+
+   
     })
 // navegador pantalla amplia
 
